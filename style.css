@@ -11,7 +11,7 @@ body {
 }
 
 button {
-  font-size: 7px;
+  font-size: 10px;
 }
 
 #main-content {
@@ -24,14 +24,30 @@ button {
   background: rgba(255, 255, 255, 0.3);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  /* box-shadow: 2px 5px 5px #333; */
+  border: 0;
 }
 
 #list {
   margin: 10px;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 20px 18px 18px;
+  padding: 15px 15px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  border: 0;
+  text-align: center;
+  /* box-shadow: 2px 5px 5px #333; */
+}
+
+#add_task {
+  padding-right: 10px;
+  font-weight: light;
+  font-size: small;
+}
+
+p {
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: medium;
+  text-align: center;
 }
